@@ -84,9 +84,74 @@ Você pode estudar códigos públicos, contribuir em outros projetos e baixar bi
                                      Funciona no computador | Funciona na internet     
                                      Controle de versão     | Hospedagem e colaboração 
 
+Ok, adorei o Github Eduardo é uma plataforma incrível, mas como eu faço para postar o meu repositório?
+
+QUASE que esqueci do mais importante pequeno, bom vou fazer um passo a passo bem fácil de entender ok?
+
+Primeiro, instale o Git (ou não da pra fazer pelo navegador também) no seu computador acessando o site oficial do Git. Depois da instalação, abra o terminal ou prompt de comando e verifique se o Git foi instalado corretamente digitando git --version.
+
+Em seguida, crie uma conta no GitHub acessando o site oficial do GitHub e fazendo seu cadastro.
+
+Depois disso, configure seu nome e email no Git, pois essas informações serão usadas nos commits. No terminal, use os comandos para definir seu nome e email globalmente.
+
+Agora crie uma pasta para o seu projeto no computador. Entre nessa pasta pelo terminal e adicione algum arquivo, como um README.md ou qualquer arquivo do seu projeto.
+
+Com a pasta pronta, inicialize o Git usando o comando git init. Isso transforma a pasta em um repositório Git.
+
+Depois adicione os arquivos ao controle de versão usando git add . e crie o primeiro commit com git commit -m "Primeiro commit".
+
+O próximo passo é criar um repositório no GitHub. Dentro do GitHub, clique em “New repository”, escolha um nome e crie o repositório.
+
+Após criar o repositório, o GitHub mostrará uma URL do projeto. Copie essa URL e conecte seu projeto local ao GitHub usando o comando git remote add origin seguido da URL do repositório.
+
+Depois envie o projeto para o GitHub usando git branch -M main e em seguida git push -u origin main.
+
+Quando o envio terminar, seu projeto estará online no GitHub e poderá ser acessado pelo link do repositório.
+
+Depois do primeiro envio, o fluxo normal de atualização será:
+modificar arquivos, usar git add ., fazer um novo commit com git commit -m "descrição da alteração" e enviar novamente com git push.
+
+De um jeito mais simplificado
 
 
+1. Criar uma conta no GitHub.
 
+2. Configurar nome e email no Git.
+
+3. Criar uma pasta do projeto no computador.
+
+4. Colocar os arquivos do projeto dentro dessa pasta.
+
+5. Abrir o terminal na pasta do projeto.
+
+6. Inicializar o Git com:
+- git init
+
+7. Adicionar os arquivos ao Git:
+git add .
+
+8. Criar o primeiro commit:
+- git commit -m "Primeiro commit"
+
+9. Criar um novo repositório no GitHub.
+
+10. Copiar a URL do repositório criado.
+
+11. Conectar o projeto local ao GitHub:
+- git remote add origin URL_DO_REPOSITORIO
+
+12. Definir a branch principal:
+- git branch -M main
+
+13. Enviar o projeto para o GitHub:
+- git push -u origin main
+- O repositório ficará online no GitHub.
+
+
+           Depois disso, sempre que fizer alterações:
+- adicionar mudanças com git add .
+- criar novo commit com git commit -m "mensagem"
+- enviar atualizações com git push
 
 
 
